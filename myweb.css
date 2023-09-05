@@ -1,0 +1,224 @@
+*{
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header ul{
+    background-color: rgb(114, 65, 65);
+    color: white;
+    text-align: center;
+    height: 50px;
+    padding-top: 0.6em;
+    margin-bottom: 0.1em;
+}
+header{
+    position: sticky;
+    top: 0%;
+}
+header ul li{
+    display: inline-block;
+    border: none;
+    margin: 0.4em;
+    cursor: pointer;
+}
+
+header button{
+    background-color: rgb(114, 65, 65);
+    border: none;
+    color: rgb(255, 255, 255);
+}
+
+header button:hover{
+    border: none;
+    color: rgb(248, 245, 245);
+    background-color: rgba(124, 24, 24, 0.322);
+}
+
+/* footer  */
+
+footer ul{
+    background-color: rgb(114, 65, 65);
+    color: white;
+    text-align: center;
+    height: 30px;
+}
+footer{
+    position: sticky;
+    bottom: 0%;
+}
+footer ul li{
+    display: inline-block;
+    margin: 0.4em;
+    border-bottom: 1px solid white;
+}
+
+img{
+    width: 100%;
+    border: 1px solid black;
+    height: 15em ;
+}
+
+div#HOME h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style:normal;
+    color: rgb(45, 1, 65);
+}
+
+div#HOME  {
+    margin: 1em;
+}
+
+div#HOME  ul img{
+    height: 16em;
+    width: 25em;
+    transition: 0.5s;
+}
+div#HOME  ul li{
+    display: inline;
+    margin-left: 1%;
+}
+
+h1{
+    border-bottom: 1px solid gray;
+    margin: 1%;
+}
+
+h2{
+    margin: 2%;
+}
+
+div#HOME img{
+    border: none;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    
+}
+div#HOME img:hover{
+    height: 14em;
+    width: 22em;
+}
+div#ABOUT{
+    margin: 2%;
+}
+div#aboutus{
+    border: 1px solid white;
+    margin: 2%;
+}
+
+div#aboutus .a{
+    background-color: #d1cccc;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    padding: 2%;
+    text-align: center;
+    border: 4px solid white;
+    width: 25%;
+    height: 600px;
+    float: left;
+}
+div#aboutus .b{
+    background-color: #d1cccc;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    padding: 2%;
+    text-align: center;
+    border: 4px solid white;
+    width: 25%;
+    height: 600px;
+    float: left;
+
+}
+div#aboutus .c{
+    background-color: #d1cccc;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    padding: 2%;
+    text-align: center;
+    border: 4px solid white;
+    width: 25%;
+    height: 600px;
+    float: right;
+}
+div#aboutus .d{
+    background-color: #d1cccc;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    padding: 2%;
+    text-align: center;
+    border: 4px solid white;
+    width: 25%;
+    height: 600px;
+    float: right;
+}
+
+div#ABOUT::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+div#aboutus img{
+    image-resolution:calc(1,1);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;  
+}
+
+div#SERVICE img{
+    border: none;
+    border-top-left-radius: 12%;
+    border-top-right-radius: 12%;
+    border-bottom-left-radius: 12%;
+    border-bottom-right-radius: 12%;
+    transition: 0.5s;
+}
+
+div#SERVICE img:hover{
+    height: 14em;
+    width: 22em;
+    margin-bottom: 4%;
+
+}
+
+div#SERVICE  ul img{
+    height: 16em;
+    width: 25em;
+    margin-bottom: 2%;
+}
+div#SERVICE ul li{
+    display: inline;
+    margin-left: 2%;
+}
+
+div#contact{
+    text-align: center;
+    border: 1px solid black;
+    background-color: rgb(185, 198, 221);
+    margin: 1em 4em 1em 4em;
+    padding-bottom: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
